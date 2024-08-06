@@ -1,0 +1,29 @@
+body{
+    background-color: yellow;
+    text-align: center;
+
+}
+
+h1{
+   color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.especial:hover{
+    color: chartreuse;
+    background-color: black;
+    text-decoration: none;
+}
+
+.especial::before{
+    content: '>>';
+    font-weight:lighter;
+
+}
+
+.especial::after{
+    content: '<<';
+    font-weight:lighter;}
